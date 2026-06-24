@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import gdown
+
+url = "https://drive.google.com/file/d/19VHw242-XkxEiHAa1yOZ5Pns85ebosgp/view?usp=sharing"
+gdown.download(url, "rf_model.pkl", quiet=False)
 
 # ==========================
 # LOAD MODEL
