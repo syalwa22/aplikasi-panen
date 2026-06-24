@@ -4,9 +4,8 @@ import numpy as np
 import joblib
 import gdown
 
-url = "https://drive.google.com/file/d/19VHw242-XkxEiHAa1yOZ5Pns85ebosgp/view?usp=sharing"
+url = "https://drive.google.com/uc?id=19VHw242-XkxEiHAa1yOZ5Pns85ebosgp"
 gdown.download(url, "rf_model.pkl", quiet=False)
-
 # ==========================
 # LOAD MODEL
 # ==========================
